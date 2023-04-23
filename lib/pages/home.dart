@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:provider/provider.dart';
+
+import '../login_info.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -13,7 +16,7 @@ class Home extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            context.go('/cart');
+            context.read<LoginInfo>().logout();
           },
           child: const Text('Go to next tab'),
         ),

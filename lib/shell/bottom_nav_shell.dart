@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -12,7 +14,7 @@ class BottomNavigationShell extends StatelessWidget {
     return Scaffold(
       body: child,
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: routes.indexOf(GoRouter.of(context).location),
+        currentIndex: max(0, routes.indexOf(GoRouter.of(context).location)),
         items: [
           BottomNavigationBarItem(
             label: 'Home',

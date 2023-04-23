@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "21839775850",
+    "project_id": "alfin-firebase",
+    "storage_bucket": "alfin-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21839775850:android:a6853a7a074c7e0486e213",
+        "android_client_info": {
+          "package_name": "com.alfin.base_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21839775850-809uiai7q55m5tc2ov1s1qm6iogfj9e3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfoPYxgqjPUhBwSH1sO2-ZIS80oXkvRco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21839775850-809uiai7q55m5tc2ov1s1qm6iogfj9e3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21839775850:android:2f6ae75af861b5d286e213",
+        "android_client_info": {
+          "package_name": "com.alfin.flutter_base"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21839775850-809uiai7q55m5tc2ov1s1qm6iogfj9e3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfoPYxgqjPUhBwSH1sO2-ZIS80oXkvRco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21839775850-809uiai7q55m5tc2ov1s1qm6iogfj9e3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
